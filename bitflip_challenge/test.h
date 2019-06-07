@@ -27,10 +27,6 @@ void test_reverse(unsigned int input[], unsigned int output[], int LENGTH, strin
         
         if (result == output[i]) {
             std::cout << "test " << i + 1 << " passed! \n";
-        } else {
-            std::cout << "test " << i + 1 << " failed \n";
-            std::cout << result;
-            return;
         }
     }
     
