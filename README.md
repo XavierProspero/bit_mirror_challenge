@@ -8,7 +8,7 @@ I solved this challenge in both an **iterative** and **recursive** manner.
 The idea in both is the same. Break up the bits into halves and flip those halves. 
 This works because 32 is a power of two, leaving a base case where you only flip 2 bits. 
 
-By using this technique I am able to do this in O(logn) time. 
+By using this technique I am able to do this in **O(logn)** time. 
 
 ## Testing
 I tested my methods by creating random numbers with a python script then mirroring the bits in python by brute force. 
