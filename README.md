@@ -15,8 +15,7 @@ I tested my methods by creating random numbers with a python script then mirrori
 I then copied these results into the *test.h* file. 
 
 ### Why Recursive?
-My decision to also solve this recursivley was to provide a more robust technique that could scale
-to any data type *(given that it is a power of 2)* of two with relative ease. 
+My decision to also solve this recursivley *(in adition to iterativley)* was to provide a more robust technique that could scale to any size number *(given that its size is a power of 2)* with relative ease. 
 
 
 
