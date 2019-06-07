@@ -14,6 +14,9 @@ By using this technique I am able to do this in O(logn) time.
 I tested my methods by creating random numbers with a python script then mirroring the bits in python by brute force. 
 I then copied these results into the *test.h* file. 
 
+You can see the number generation in *bitflip.py*.
+
+
 ### Why Recursive?
 My decision to also solve this recursivley *(in adition to iterativley)* was to provide a more robust technique that could scale to any size number *(given that its size is a power of 2)* with relative ease. 
 
