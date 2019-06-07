@@ -20,11 +20,11 @@ int main(int argc, const char * argv[]) {
     unsigned int outputs[LENGTH] = {4080904576, 682108544, 441748288, 1671293696, 120576832, 9269440};
     
     // Calls test function located in test.h
-    cout<<"Testing Normal:" << "\n";
+    cout<<"Testing Normal:" << "\n";                            // Testing iterative
     test_reverse(inputs, outputs, LENGTH, "normal");
     cout<< "\n \n";
     
-    cout<<"Testing Recursive:" << "\n";
+    cout<<"Testing Recursive:" << "\n";                         // Testing recursive
     test_reverse(inputs, outputs, LENGTH, "recursive");
     return 0;
 }

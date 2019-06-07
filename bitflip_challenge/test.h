@@ -15,16 +15,14 @@
 using namespace std;
 
 
-
-
 void test_reverse(unsigned int input[], unsigned int output[], int LENGTH, string rec) {
     int result = 0;
     
     for (int i = 0; i < LENGTH; i ++) {
-        if (rec == "recursive") {
+        if (rec == "recursive") {                               // checking which function it should test
             result = recursive_reverse(input[i]);
         } else {
-            result = reverse(input[i]);
+            result = reverse(input[i]);                         // checking which function it should test
         }
         
         if (result == output[i]) {
@@ -38,8 +36,6 @@ void test_reverse(unsigned int input[], unsigned int output[], int LENGTH, strin
     
     std::cout << "all test cases passed for "<<rec << "! \n \n";
 }
-
-
 
 
 #endif /* test_h */

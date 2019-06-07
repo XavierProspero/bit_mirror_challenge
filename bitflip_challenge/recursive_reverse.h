@@ -17,7 +17,7 @@ int toInt(int arr[]);                               // array of bits to int
 int* rec_reverse(int arr[], int length);            // Recursive function
 
 int recursive_reverse(int number) {
-// A shell function that turns int to bit array then calls recursive function.
+// A shell function that turns number to bit array then calls recursive function.
     int * bitArray;
     bitArray = toBitArray(number);
     int ret = toInt(rec_reverse(bitArray, (int) (SIZE / 2)));
